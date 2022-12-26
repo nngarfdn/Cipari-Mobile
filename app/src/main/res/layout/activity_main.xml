@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dash"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/actionbar_menu"/>
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="3000"
+        app:iss_delay="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#454545"
+        android:textSize="18sp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/selamat_datang_di_e_cipari"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Profil Kelurahan Cipari"
+        android:drawableLeft="@drawable/ic_outline_info_24"
+        />
+    <Button
+        android:id="@+id/btn_peta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Peta Kelurahan Cipari"
+        android:drawableLeft="@drawable/ic_maps"
+        />
+
+    <Button
+        android:id="@+id/btn_lembaga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Lembaga"
+        android:drawableLeft="@drawable/ic_lembaga"
+        />
+
+    <Button
+        android:id="@+id/btn_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Instagram"
+        android:drawableLeft="@drawable/ic_instagram"
+        />
+    <Button
+        android:id="@+id/btn_youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Youtube"
+        android:drawableLeft="@drawable/ic_youtube"
+        />
+
+    <Button
+        android:id="@+id/btn_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Website"
+        android:drawableLeft="@drawable/ic_website"
+        />
+
+
+
+</LinearLayout>

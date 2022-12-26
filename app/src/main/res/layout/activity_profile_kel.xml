@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileKelActivity">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/actionbar_menu"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logowithtext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="16dp"
+        android:text="Profil Kelurahan Cipari"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:layout_marginHorizontal="16dp"
+        android:text="Desa/Kelurahan Cipari secara administrasi merupakan salah satu Desa/Kelurahan dalam wilayah Kecamatan Cigugur Kabupaten Kuningan dengan batas-batas wilayah yaitu:
+\n
+\u2022 Sebelah utara berbatasan dengan Desa Gunungkeling, \n
+\u2022 Sebelah selatan berbatasan dengan Kelurahan Cigugur, \n
+\u2022 Sebelah barat berbatasan dengan Desa Cisantana, \n
+\u2022 Sebelah timur berbatasan dengan Kelurahan Winduherang, \n
+\u2022 Luas wilayah seluruhnya adalah 251,467 Hektar dan berada pada ketinggian 2000 - 2600 Mdpl dengan iklim tropis dan secara administrative terdiri dari 20 RT yang dibagi menjadi 7 Lingkungan."/>
+
+</LinearLayout>
