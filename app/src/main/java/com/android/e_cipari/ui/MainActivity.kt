@@ -1,9 +1,10 @@
-package com.android.e_cipari
+package com.android.e_cipari.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.android.e_cipari.R
 import com.android.e_cipari.databinding.ActivityMainBinding
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
@@ -38,11 +39,11 @@ class MainActivity : AppCompatActivity() {
             }
 
             btnProfile.setOnClickListener {
-                startActivity(Intent(this@MainActivity,ProfileKelActivity::class.java))
+                startActivity(Intent(this@MainActivity, ProfileKelActivity::class.java))
             }
 
             btnLembaga.setOnClickListener {
-                startActivity(Intent(this@MainActivity,LembagaActivity::class.java))
+                startActivity(Intent(this@MainActivity, LembagaActivity::class.java))
             }
         }
     }

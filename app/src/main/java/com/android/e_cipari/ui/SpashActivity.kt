@@ -1,10 +1,11 @@
-package com.android.e_cipari
+package com.android.e_cipari.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.android.e_cipari.R
 
 class SpashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

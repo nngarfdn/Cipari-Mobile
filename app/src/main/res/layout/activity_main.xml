@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@drawable/dash"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <include
         layout="@layout/actionbar_menu"/>
@@ -112,6 +112,18 @@
         android:drawableLeft="@drawable/ic_website"
         />
 
-
+    <Button
+        android:id="@+id/btn_informasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Artikel"
+        android:drawableLeft="@drawable/ic_artikel"
+        />
 
 </LinearLayout>
