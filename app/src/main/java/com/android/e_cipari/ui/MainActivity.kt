@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
             btnLembaga.setOnClickListener {
                 startActivity(Intent(this@MainActivity, LembagaActivity::class.java))
             }
+
+            btnInformasi.setOnClickListener {
+                startActivity(Intent(this@MainActivity, ArtikelActivity::class.java))
+            }
         }
     }
 
