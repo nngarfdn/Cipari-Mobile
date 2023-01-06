@@ -30,7 +30,7 @@
         android:fontFamily="@font/montserrat_medium"
         android:paddingVertical="12dp"
         android:singleLine="true"
-        android:text="e-Cipari" />
+        android:text="Cipari Mobile" />
 
     <ImageButton
         android:id="@+id/btn_menu"

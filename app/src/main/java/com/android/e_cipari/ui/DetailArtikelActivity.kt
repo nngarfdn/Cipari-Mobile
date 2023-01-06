@@ -24,15 +24,14 @@ class DetailArtikelActivity : AppCompatActivity() {
                 txtTitleArtikel.text = data.title
                 txtDesc.text = data.description
                 imgArtikel.setImageResource(data.image)
+                actionBar.apply {
+                    txtTitle.text = data.title
+                    btnBack.visibility = View.VISIBLE
+                    btnBack.setOnClickListener { onBackPressed() }
+                    btnMenu.visibility = View.INVISIBLE
+                }
             }
         }
 
-        binding.apply {
-            actionBar.apply {
-                txtTitle.text = getString(R.string.detail_artikel)
-//                btnBack.setOnClickListener { onBackPressed() }
-//                btnMenu.visibility = View.INVISIBLE
-            }
-        }
     }
 }

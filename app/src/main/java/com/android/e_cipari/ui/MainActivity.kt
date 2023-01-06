@@ -3,6 +3,7 @@ package com.android.e_cipari.ui
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.android.e_cipari.R
 import com.android.e_cipari.databinding.ActivityMainBinding
@@ -27,6 +28,13 @@ class MainActivity : AppCompatActivity() {
         binding.imageSlider.setImageList(imageList, ScaleTypes.CENTER_CROP)
 
         binding.apply {
+
+            actionBar.apply {
+                btnMenu.visibility = View.VISIBLE
+                btnMenu.setOnClickListener {
+                    startActivity(Intent(this@MainActivity, TentangActivity::class.java))
+                }
+            }
             btnInstagram.setOnClickListener {
                 openUrl("https://www.instagram.com/kelurahan.cipari/")
             }

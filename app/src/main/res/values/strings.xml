@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">e-cipari</string>
-    <string name="selamat_datang_di_e_cipari">Selamat datang di e-cipari</string>
+    <string name="app_name">Cipari Mobile</string>
+    <string name="selamat_datang_di_e_cipari">Selamat datang di Cipari Mobile</string>
     <string name="detail_artikel">Detail Artikel</string>
 </resources>
