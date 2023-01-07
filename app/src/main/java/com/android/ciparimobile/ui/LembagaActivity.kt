@@ -1,10 +1,10 @@
-package com.android.e_cipari.ui
+package com.android.ciparimobile.ui
 
 import android.content.res.AssetManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.android.e_cipari.databinding.ActivityLembagaBinding
+import com.android.ciparimobile.databinding.ActivityLembagaBinding
 
 class LembagaActivity : AppCompatActivity() {
     private val binding by lazy { ActivityLembagaBinding.inflate(layoutInflater) }

@@ -1,12 +1,12 @@
-package com.android.e_cipari.ui
+package com.android.ciparimobile.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.android.e_cipari.databinding.ActivityProfileKelBinding
+import com.android.ciparimobile.databinding.ActivityTentangBinding
 
-class ProfileKelActivity : AppCompatActivity() {
-    private val binding by lazy { ActivityProfileKelBinding.inflate(layoutInflater) }
+class TentangActivity : AppCompatActivity() {
+    private val binding by lazy { ActivityTentangBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -15,10 +15,8 @@ class ProfileKelActivity : AppCompatActivity() {
             actionBar.apply {
                 btnBack.visibility = View.VISIBLE
                 btnBack.setOnClickListener { onBackPressed() }
-
                 btnMenu.visibility = View.INVISIBLE
             }
         }
-
     }
 }

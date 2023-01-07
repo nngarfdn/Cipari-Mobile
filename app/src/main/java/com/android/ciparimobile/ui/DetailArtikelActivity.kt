@@ -1,11 +1,10 @@
-package com.android.e_cipari.ui
+package com.android.ciparimobile.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.android.e_cipari.R
-import com.android.e_cipari.databinding.ActivityDetailArtikelBinding
-import com.android.e_cipari.model.Artikel
+import com.android.ciparimobile.model.Artikel
+import com.android.ciparimobile.databinding.ActivityDetailArtikelBinding
 
 class DetailArtikelActivity : AppCompatActivity() {
     private val binding by lazy { ActivityDetailArtikelBinding.inflate(layoutInflater) }

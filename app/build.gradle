@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.android.e_cipari'
+    namespace 'com.android.ciparimobile'
     compileSdk 32
 
     viewBinding {
