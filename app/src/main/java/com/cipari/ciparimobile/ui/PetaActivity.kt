@@ -1,8 +1,8 @@
-package com.android.ciparimobile.ui
+package com.cipari.ciparimobile.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.android.ciparimobile.R
+import com.cipari.ciparimobile.R
 
 class PetaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

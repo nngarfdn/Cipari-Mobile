@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LembagaActivity">
+    tools:context="com.cipari.ciparimobile.ui.LembagaActivity">
 
     <include
         android:id="@+id/action_bar"

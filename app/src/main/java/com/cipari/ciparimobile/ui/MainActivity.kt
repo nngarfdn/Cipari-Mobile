@@ -1,12 +1,12 @@
-package com.android.ciparimobile.ui
+package com.cipari.ciparimobile.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.android.ciparimobile.R
-import com.android.ciparimobile.databinding.ActivityMainBinding
+import com.cipari.ciparimobile.R
+import com.cipari.ciparimobile.databinding.ActivityMainBinding
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 

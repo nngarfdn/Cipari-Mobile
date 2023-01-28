@@ -1,4 +1,4 @@
-package com.android.ciparimobile
+package com.cipari.ciparimobile
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.android.ciparimobile.model
+package com.cipari.ciparimobile.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

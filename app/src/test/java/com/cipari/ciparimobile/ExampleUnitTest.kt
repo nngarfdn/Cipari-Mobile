@@ -1,4 +1,4 @@
-package com.android.ciparimobile
+package com.cipari.ciparimobile
 
 import org.junit.Test
 

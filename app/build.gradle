@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.android.ciparimobile'
+    namespace 'com.cipari.ciparimobile'
     compileSdk 32
 
     viewBinding {
@@ -13,11 +13,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.android.e_cipari"
+        applicationId "com.cipari.ciparimobile"
         minSdk 21
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

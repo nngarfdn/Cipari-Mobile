@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@drawable/dash"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context="com.cipari.ciparimobile.ui.MainActivity">
 
     <include
         android:id="@+id/action_bar"

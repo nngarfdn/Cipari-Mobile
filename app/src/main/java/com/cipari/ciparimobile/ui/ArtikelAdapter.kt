@@ -1,13 +1,13 @@
-package com.android.ciparimobile.ui
+package com.cipari.ciparimobile.ui
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.ciparimobile.R
-import com.android.ciparimobile.databinding.ItemArtikelBinding
-import com.android.ciparimobile.model.Artikel
+import com.cipari.ciparimobile.R
+import com.cipari.ciparimobile.databinding.ItemArtikelBinding
+import com.cipari.ciparimobile.model.Artikel
 import com.bumptech.glide.Glide
 
 class ArtikelAdapter : RecyclerView.Adapter<ArtikelAdapter.GameViewHolder>() {

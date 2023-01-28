@@ -17,28 +17,28 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".ui.TentangActivity"
+            android:name="com.cipari.ciparimobile.ui.TentangActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.DetailArtikelActivity"
+            android:name="com.cipari.ciparimobile.ui.DetailArtikelActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.ArtikelActivity"
+            android:name="com.cipari.ciparimobile.ui.ArtikelActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.LembagaActivity"
+            android:name="com.cipari.ciparimobile.ui.LembagaActivity"
             android:exported="false"
             android:usesCleartextTraffic="true">
             <meta-data
@@ -46,28 +46,28 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.PetaActivity"
+            android:name="com.cipari.ciparimobile.ui.PetaActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.ProfileKelActivity"
+            android:name="com.cipari.ciparimobile.ui.ProfileKelActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.cipari.ciparimobile.ui.MainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.SpashActivity"
+            android:name="com.cipari.ciparimobile.ui.SpashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
